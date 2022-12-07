@@ -1,0 +1,39 @@
+###
+
+GET http://localhost:3000/api/task
+
+###
+
+GET http://localhost:3000/api/task?size=3&page=0
+###
+
+POST http://localhost:3000/api/task
+Content-Type: application/json
+
+{
+    "title":"Cosas"
+    
+
+}
+
+###
+
+GET http://localhost:3000/api/task/63900b6e9e071bd4c4cb9511
+
+###
+DELETE http://localhost:3000/api/task/638faeec5b2c03d6c94cce10
+
+
+####
+
+GET http://localhost:3000/api/task/done
+
+####
+
+PUT http://localhost:3000/api/task/638f9b464f3f8b9fe438c18b
+Content-Type: application/json
+
+{
+    "title":"Hacer un sitio web en React"
+    
+}
